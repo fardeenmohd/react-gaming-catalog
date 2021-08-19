@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
       }
     }
     body {
-      background-color: #FDF600;
+      background-color: #fcba03;
       font-family: "Montserrat", sans-serif;
       width: 100%;
     }
@@ -44,6 +44,11 @@ const GlobalStyles = createGlobalStyle`
     }
     img {
       display: block;
+    }
+    input{
+      font-weight: bold;
+      font-family: "Montserrat", sans-serif;
+
     }
 `;
 

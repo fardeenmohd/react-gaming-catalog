@@ -32,7 +32,7 @@ const Game = ({ name, released, id, image }) => {
 };
 
 const StyledGame = styled(motion.div)`
-  background-color: #ff00bf;
+  background-color: #ff7676;
   min-height: 30vh;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
   text-align: center;

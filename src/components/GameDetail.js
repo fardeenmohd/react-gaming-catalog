@@ -101,7 +101,7 @@ const GameDetail = ({ pathId }) => {
               <p>{game.description}</p>
             </Description>
             <div className="gallery">
-              {screen &&
+              {screen.results &&
                 screen.results.map((screen) => (
                   <img
                     src={smallImage(screen.image, 1280)}
