@@ -18,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
       }
     }
     body {
+      background-color: #FDF600;
       font-family: "Montserrat", sans-serif;
       width: 100%;
     }
@@ -25,7 +26,7 @@ const GlobalStyles = createGlobalStyle`
       font-size: 3rem;
       font-family: "Abril Fatface", cursive;
       font-weight: lighter;
-      color: #ff7676;
+      color: #ff00bf;
     }
     h3 {
       font-size: 1.3;
@@ -40,6 +41,9 @@ const GlobalStyles = createGlobalStyle`
     a {
       text-decoration: none;
       color: #333;
+    }
+    img {
+      display: block;
     }
 `;
 
